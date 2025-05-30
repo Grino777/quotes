@@ -4,11 +4,11 @@
 ## Возможности
 Сервис поддерживает следующие эндпоинты:
 
-POST /quotes: Добавление новой цитаты.
-GET /quotes: Получение всех цитат.
-GET /quotes/random: Получение случайной цитаты.
-GET /quotes?author={author}: Фильтрация цитат по автору.
-DELETE /quotes/{id}: Удаление цитаты по идентификатору.
+- POST /quotes: Добавление новой цитаты.
+- GET /quotes: Получение всех цитат.
+- GET /quotes/random: Получение случайной цитаты.
+- GET /quotes?author={author}: Фильтрация цитат по автору.
+- DELETE /quotes/{id}: Удаление цитаты по идентификатору.
 
 ## Требования
 Go: Версия 1.24.3 или выше.
@@ -77,5 +77,5 @@ internal: Основная логика приложения:
 storage: Файл базы данных SQLite.
 
 ## Зависимости
-github.com/mattn/go-sqlite3 - драйвер для sqlite3
-github.com/ilyakaznacheev/cleanenv - парсинг конфиг файла
+- github.com/mattn/go-sqlite3 - драйвер для sqlite3
+- github.com/ilyakaznacheev/cleanenv - парсинг конфиг файла
